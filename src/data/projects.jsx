@@ -116,7 +116,7 @@ export const projectsData = [
       en: "Enterprise event platform. Features JWT authentication, Role-Based Access Control (RBAC), and automated personal RSVP link generation."
     },
     tech: ["Node.js", "Express", "MongoDB", "Mongoose", "JWT Auth", "Axios"],
-    liveUrl: "https://event-flow-app-brown.vercel.app/",
+    liveUrl: "https://react-portfolio-ochre-chi.vercel.app/event-flow",
     gitUrl: "https://github.com/SovaD/event-flow-app.git",
     images: [sc4_1, sc4_2, sc4_3, sc4_4]
   }
