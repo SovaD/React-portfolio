@@ -1,16 +1,30 @@
-# React + Vite
+# Frontend Developer Portfolio | React & Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Интерактивное Single Page Application (SPA), демонстрирующее навыки построения современной фронтенд-архитектуры, работы с состоянием и внешними API.
 
-Currently, two official plugins are available:
+[Live](https://react-portfolio-ochre-chi.vercel.app/)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+##  Техническая реализация (Architecture)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Проект построен с использованием компонентного подхода и разделения ответственности (Separation of Concerns):
 
-## Expanding the ESLint configuration
+* **Global State Management:** Использование **React Context API** для управления темами (Dark/Light) и локализацией (RU/EN) без лишнего ререндеринга.
+* **Routing & Navigation:** Реализована сложная навигация с использованием `react-router-dom` и `react-router-hash-link`, включая:
+    * Бесшовный скролл к секциям (Hash Anchors).
+    * Обработку несуществующих маршрутов (Custom 404 Page).
+    * Корректную работу навигации при возврате с других страниц на главную.
+* **API Integration:** Настроена интеграция с **EmailJS** для обработки пользовательских форм на клиентской стороне без необходимости в выделенном бэкенде.
+* **UI/UX Logic:** * Реализован кастомный обработчик событий мыши для интерактивных элементов.
+    * Оптимизированные анимации с использованием **Framer Motion** (библиотека декларативных анимаций).
+    * Динамическая смена `document.title` для удержания внимания пользователя.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 💻 Стек технологий
+* **Core:** React 18, Vite.
+* **Logic:** JavaScript (ES6+), React Hooks (useEffect, useState, useContext).
+* **Styles:** CSS3 (Variables, Flexbox, Grid, Media Queries).
+* **Tools:** Lucide Icons, Git, npm.
+
+---
+**Разработчик:** SovaD| Peri
