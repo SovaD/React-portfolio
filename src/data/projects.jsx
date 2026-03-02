@@ -108,16 +108,16 @@ export const projectsData = [
     gitUrl: "https://github.com/SovaD/smart-budget-app.git",
     images: [sc3_1, sc3_2, sc3_3]
   },
-  {
-    id: 4,
-    title: "EventFlow Fullstack",
-    description: {
-      ru: "Enterprise-платформа для ивентов. Реализована JWT-авторизация, ролевая модель доступа (RBAC) и автоматическая генерация персональных RSVP-ссылок.",
-      en: "Enterprise event platform. Features JWT authentication, Role-Based Access Control (RBAC), and automated personal RSVP link generation."
-    },
-    tech: ["Node.js", "Express", "MongoDB", "Mongoose", "JWT Auth", "Axios"],
-    liveUrl: "https://react-portfolio-ochre-chi.vercel.app/event-flow",
-    gitUrl: "https://github.com/SovaD/event-flow-app.git",
-    images: [sc4_1, sc4_2, sc4_3, sc4_4]
-  }
+  // {
+  //   id: 4,
+  //   title: "EventFlow Fullstack",
+  //   description: {
+  //     ru: "Enterprise-платформа для ивентов. Реализована JWT-авторизация, ролевая модель доступа (RBAC) и автоматическая генерация персональных RSVP-ссылок.",
+  //     en: "Enterprise event platform. Features JWT authentication, Role-Based Access Control (RBAC), and automated personal RSVP link generation."
+  //   },
+  //   tech: ["Node.js", "Express", "MongoDB", "Mongoose", "JWT Auth", "Axios"],
+  //   liveUrl: "https://react-portfolio-ochre-chi.vercel.app/event-flow",
+  //   gitUrl: "https://github.com/SovaD/event-flow-app.git",
+  //   images: [sc4_1, sc4_2, sc4_3, sc4_4]
+  // }
 ];
